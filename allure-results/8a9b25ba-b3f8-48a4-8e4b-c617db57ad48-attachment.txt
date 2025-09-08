@@ -1,0 +1,30 @@
+[2025-09-03 09:01:06.086 +0800] INFO: [pages\LoginPage.ts:30:13] Filling username: standard_user
+[2025-09-03 09:01:06.245 +0800] INFO: [pages\LoginPage.ts:32:13] Filling password: *******
+[2025-09-03 09:01:07.086 +0800] INFO: [pages\LoginPage.ts:36:13] Clicking login button
+[2025-09-03 09:01:07.194 +0800] INFO: [pages\LoginPage.ts:39:13] Login successful, redirected to inventory page
+[2025-09-03 09:01:07.284 +0800] INFO: [pages\LoginPage.ts:41:13] Product title verified
+[2025-09-03 09:01:08.170 +0800] INFO: [pages\InventoryPage.ts:15:17] Clicked on product Sauce Labs Backpack to view details
+[2025-09-03 09:01:08.171 +0800] INFO: [pages\InventoryPage.ts:16:17] Redirecting to product details page for Sauce Labs Backpack
+[2025-09-03 09:01:08.666 +0800] INFO: [pages\InventoryPage.ts:19:17] Screenshot taken for product details page of Sauce Labs Backpack
+[2025-09-03 09:01:08.884 +0800] INFO: [pages\InventoryPage.ts:21:17] Clicked 'Add to Cart' for Sauce Labs Backpack from product details page
+[2025-09-03 09:01:09.344 +0800] INFO: [pages\InventoryPage.ts:23:17] Screenshot taken after adding Sauce Labs Backpack to cart from product details page
+[2025-09-03 09:01:09.361 +0800] INFO: [pages\InventoryPage.ts:35:13] Verified that Sauce Labs Backpack is added to cart
+[2025-09-03 09:01:09.666 +0800] INFO: [pages\InventoryPage.ts:40:13] Navigated to cart page
+[2025-09-03 09:01:09.863 +0800] INFO: [pages\InventoryPage.ts:44:13] Verified that Sauce Labs Backpack is present in the cart
+[2025-09-03 09:01:09.875 +0800] INFO: [pages\InventoryPage.ts:46:13] Verified cart item label for Sauce Labs Backpack
+[2025-09-03 09:01:10.117 +0800] INFO: [pages\InventoryPage.ts:49:13] Screenshot taken of cart page after adding Sauce Labs Backpack
+[2025-09-03 09:01:10.119 +0800] INFO: [pages\CheckoutPage.ts:21:13] Initiating checkout process
+[2025-09-03 09:01:10.395 +0800] INFO: [pages\CheckoutPage.ts:25:13] Clicked 'Checkout' button
+[2025-09-03 09:01:10.500 +0800] INFO: [pages\CheckoutPage.ts:27:13] Navigated to checkout step one page
+[2025-09-03 09:01:10.872 +0800] INFO: [pages\CheckoutPage.ts:29:13] Screenshot taken of checkout step one page
+[2025-09-03 09:01:10.874 +0800] INFO: [pages\CheckoutPage.ts:55:13] Filling checkout information: TCOne Bailey, Postal Code: 62187-7582
+[2025-09-03 09:01:11.222 +0800] INFO: [pages\CheckoutPage.ts:59:13] Filled in checkout information
+[2025-09-03 09:01:11.547 +0800] INFO: [pages\CheckoutPage.ts:61:13] Screenshot taken after filling checkout information
+[2025-09-03 09:01:11.756 +0800] INFO: [pages\CheckoutPage.ts:63:13] Clicked 'Continue' button
+[2025-09-03 09:01:11.853 +0800] INFO: [pages\CheckoutPage.ts:65:13] Navigated to checkout step two page
+[2025-09-03 09:01:12.144 +0800] INFO: [pages\CheckoutPage.ts:67:13] Screenshot taken of checkout step two page
+[2025-09-03 09:01:12.144 +0800] INFO: [pages\CheckoutPage.ts:76:13] Verifying successful checkout
+[2025-09-03 09:01:12.339 +0800] INFO: [pages\CheckoutPage.ts:79:13] Clicked 'Finish' button
+[2025-09-03 09:01:12.410 +0800] INFO: [pages\CheckoutPage.ts:81:13] Navigated to checkout complete page
+[2025-09-03 09:01:12.435 +0800] INFO: [pages\CheckoutPage.ts:84:13] Verified thank you message
+[2025-09-03 09:01:12.711 +0800] INFO: [pages\CheckoutPage.ts:86:13] Screenshot taken of checkout complete page

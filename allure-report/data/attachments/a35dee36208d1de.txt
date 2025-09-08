@@ -1,0 +1,27 @@
+[2025-09-03 09:00:56.056 +0800] INFO: [pages\LoginPage.ts:30:13] Filling username: standard_user
+[2025-09-03 09:00:56.519 +0800] INFO: [pages\LoginPage.ts:32:13] Filling password: *******
+[2025-09-03 09:00:56.825 +0800] INFO: [pages\LoginPage.ts:36:13] Clicking login button
+[2025-09-03 09:00:56.847 +0800] INFO: [pages\LoginPage.ts:39:13] Login successful, redirected to inventory page
+[2025-09-03 09:00:56.870 +0800] INFO: [pages\LoginPage.ts:41:13] Product title verified
+[2025-09-03 09:00:57.203 +0800] INFO: [pages\InventoryPage.ts:28:17] Clicked 'Add to Cart' for Test.allTheThings() T-Shirt (Red)
+[2025-09-03 09:00:57.478 +0800] INFO: [pages\InventoryPage.ts:30:17] Screenshot taken after adding Test.allTheThings() T-Shirt (Red) to cart
+[2025-09-03 09:00:57.495 +0800] INFO: [pages\InventoryPage.ts:35:13] Verified that Test.allTheThings() T-Shirt (Red) is added to cart
+[2025-09-03 09:00:57.557 +0800] INFO: [pages\InventoryPage.ts:40:13] Navigated to cart page
+[2025-09-03 09:00:57.602 +0800] INFO: [pages\InventoryPage.ts:44:13] Verified that Test.allTheThings() T-Shirt (Red) is present in the cart
+[2025-09-03 09:00:57.621 +0800] INFO: [pages\InventoryPage.ts:46:13] Verified cart item label for Test.allTheThings() T-Shirt (Red)
+[2025-09-03 09:00:57.730 +0800] INFO: [pages\InventoryPage.ts:49:13] Screenshot taken of cart page after adding Test.allTheThings() T-Shirt (Red)
+[2025-09-03 09:00:57.732 +0800] INFO: [pages\CheckoutPage.ts:21:13] Initiating checkout process
+[2025-09-03 09:00:57.835 +0800] INFO: [pages\CheckoutPage.ts:25:13] Clicked 'Checkout' button
+[2025-09-03 09:00:57.848 +0800] INFO: [pages\CheckoutPage.ts:27:13] Navigated to checkout step one page
+[2025-09-03 09:00:58.016 +0800] INFO: [pages\CheckoutPage.ts:29:13] Screenshot taken of checkout step one page
+[2025-09-03 09:00:58.019 +0800] INFO: [pages\CheckoutPage.ts:55:13] Filling checkout information: TCFive Hegmann, Postal Code: 70500-1960
+[2025-09-03 09:00:58.104 +0800] INFO: [pages\CheckoutPage.ts:59:13] Filled in checkout information
+[2025-09-03 09:00:58.254 +0800] INFO: [pages\CheckoutPage.ts:61:13] Screenshot taken after filling checkout information
+[2025-09-03 09:00:58.334 +0800] INFO: [pages\CheckoutPage.ts:63:13] Clicked 'Continue' button
+[2025-09-03 09:00:58.388 +0800] INFO: [pages\CheckoutPage.ts:65:13] Navigated to checkout step two page
+[2025-09-03 09:00:58.560 +0800] INFO: [pages\CheckoutPage.ts:67:13] Screenshot taken of checkout step two page
+[2025-09-03 09:00:58.561 +0800] INFO: [pages\CheckoutPage.ts:76:13] Verifying successful checkout
+[2025-09-03 09:00:58.617 +0800] INFO: [pages\CheckoutPage.ts:79:13] Clicked 'Finish' button
+[2025-09-03 09:00:58.632 +0800] INFO: [pages\CheckoutPage.ts:81:13] Navigated to checkout complete page
+[2025-09-03 09:00:58.644 +0800] INFO: [pages\CheckoutPage.ts:84:13] Verified thank you message
+[2025-09-03 09:00:58.774 +0800] INFO: [pages\CheckoutPage.ts:86:13] Screenshot taken of checkout complete page

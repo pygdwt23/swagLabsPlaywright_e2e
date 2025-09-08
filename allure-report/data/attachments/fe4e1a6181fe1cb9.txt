@@ -1,0 +1,15 @@
+[2025-09-03 08:47:24.796 +0800] INFO: [pages\LoginPage.ts:30:13] Filling username: standard_user
+[2025-09-03 08:47:25.015 +0800] INFO: [pages\LoginPage.ts:32:13] Filling password: *******
+[2025-09-03 08:47:29.749 +0800] INFO: [pages\LoginPage.ts:36:13] Clicking login button
+[2025-09-03 08:47:29.790 +0800] INFO: [pages\LoginPage.ts:39:13] Login successful, redirected to inventory page
+[2025-09-03 08:47:29.807 +0800] INFO: [pages\LoginPage.ts:41:13] Product title verified
+[2025-09-03 08:47:30.217 +0800] INFO: [pages\InventoryPage.ts:15:17] Clicked on product Sauce Labs Fleece Jacket to view details
+[2025-09-03 08:47:30.217 +0800] INFO: [pages\InventoryPage.ts:16:17] Redirecting to product details page for Sauce Labs Fleece Jacket
+[2025-09-03 08:47:30.330 +0800] INFO: [pages\InventoryPage.ts:19:17] Screenshot taken for product details page of Sauce Labs Fleece Jacket
+[2025-09-03 08:47:30.424 +0800] INFO: [pages\InventoryPage.ts:21:17] Clicked 'Add to Cart' for Sauce Labs Fleece Jacket from product details page
+[2025-09-03 08:47:30.569 +0800] INFO: [pages\InventoryPage.ts:23:17] Screenshot taken after adding Sauce Labs Fleece Jacket to cart from product details page
+[2025-09-03 08:47:30.571 +0800] INFO: [pages\CheckoutPage.ts:38:13] Attempting to remove item: Sauce Labs Fleece Jacket from cart
+[2025-09-03 08:47:40.614 +0800] ERROR: [pages\CheckoutPage.ts:48:11] Failed to remove item: Sauce Labs Fleece Jacket from cart: TimeoutError: locator.click: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('.cart_item').filter({ hasText: 'Sauce Labs Fleece Jacket' }).locator('button').filter({ hasText: 'Remove' })
+

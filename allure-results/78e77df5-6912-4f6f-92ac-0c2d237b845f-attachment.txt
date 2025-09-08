@@ -1,0 +1,15 @@
+[2025-09-03 08:47:34.005 +0800] INFO: [pages\LoginPage.ts:30:13] Filling username: standard_user
+[2025-09-03 08:47:34.225 +0800] INFO: [pages\LoginPage.ts:32:13] Filling password: *******
+[2025-09-03 08:47:35.305 +0800] INFO: [pages\LoginPage.ts:36:13] Clicking login button
+[2025-09-03 08:47:35.495 +0800] INFO: [pages\LoginPage.ts:39:13] Login successful, redirected to inventory page
+[2025-09-03 08:47:35.516 +0800] INFO: [pages\LoginPage.ts:41:13] Product title verified
+[2025-09-03 08:47:36.693 +0800] INFO: [pages\InventoryPage.ts:15:17] Clicked on product Sauce Labs Backpack to view details
+[2025-09-03 08:47:36.693 +0800] INFO: [pages\InventoryPage.ts:16:17] Redirecting to product details page for Sauce Labs Backpack
+[2025-09-03 08:47:37.360 +0800] INFO: [pages\InventoryPage.ts:19:17] Screenshot taken for product details page of Sauce Labs Backpack
+[2025-09-03 08:47:37.781 +0800] INFO: [pages\InventoryPage.ts:21:17] Clicked 'Add to Cart' for Sauce Labs Backpack from product details page
+[2025-09-03 08:47:38.278 +0800] INFO: [pages\InventoryPage.ts:23:17] Screenshot taken after adding Sauce Labs Backpack to cart from product details page
+[2025-09-03 08:47:38.280 +0800] INFO: [pages\CheckoutPage.ts:21:13] Initiating checkout process
+[2025-09-03 08:47:48.301 +0800] ERROR: [pages\CheckoutPage.ts:31:11] Failed to initiate checkout: TimeoutError: locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator('#checkout') to be visible
+

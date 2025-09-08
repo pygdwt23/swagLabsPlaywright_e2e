@@ -1,0 +1,27 @@
+[2025-09-08 22:26:07.388 +0800] INFO: [pages\LoginPage.ts:31:13] Filling username: standard_user
+[2025-09-08 22:26:07.416 +0800] INFO: [pages\LoginPage.ts:33:13] Filling password: *******
+[2025-09-08 22:26:07.674 +0800] INFO: [pages\LoginPage.ts:37:13] Clicking login button
+[2025-09-08 22:26:07.696 +0800] INFO: [pages\LoginPage.ts:40:13] Login successful, redirected to inventory page
+[2025-09-08 22:26:07.710 +0800] INFO: [pages\LoginPage.ts:42:13] Product title verified
+[2025-09-08 22:26:07.962 +0800] INFO: [pages\InventoryPage.ts:31:17] Clicked 'Add to Cart' for Test.allTheThings() T-Shirt (Red)
+[2025-09-08 22:26:08.153 +0800] INFO: [pages\InventoryPage.ts:34:17] Screenshot taken after adding Test.allTheThings() T-Shirt (Red) to cart
+[2025-09-08 22:26:08.171 +0800] INFO: [pages\InventoryPage.ts:39:13] Verified that Test.allTheThings() T-Shirt (Red) is added to cart
+[2025-09-08 22:26:08.267 +0800] INFO: [pages\InventoryPage.ts:44:13] Navigated to cart page
+[2025-09-08 22:26:08.312 +0800] INFO: [pages\InventoryPage.ts:48:13] Verified that Test.allTheThings() T-Shirt (Red) is present in the cart
+[2025-09-08 22:26:08.327 +0800] INFO: [pages\InventoryPage.ts:50:13] Verified cart item label for Test.allTheThings() T-Shirt (Red)
+[2025-09-08 22:26:08.448 +0800] INFO: [pages\InventoryPage.ts:54:13] Screenshot taken of cart page after adding Test.allTheThings() T-Shirt (Red)
+[2025-09-08 22:26:08.449 +0800] INFO: [pages\CheckoutPage.ts:23:13] Initiating checkout process
+[2025-09-08 22:26:08.537 +0800] INFO: [pages\CheckoutPage.ts:27:13] Clicked 'Checkout' button
+[2025-09-08 22:26:08.553 +0800] INFO: [pages\CheckoutPage.ts:29:13] Navigated to checkout step one page
+[2025-09-08 22:26:08.690 +0800] INFO: [pages\CheckoutPage.ts:32:13] Screenshot taken of checkout step one page
+[2025-09-08 22:26:08.692 +0800] INFO: [pages\CheckoutPage.ts:61:13] Filling checkout information: TCFive Dooley, Postal Code: 74056
+[2025-09-08 22:26:08.798 +0800] INFO: [pages\CheckoutPage.ts:65:13] Filled in checkout information
+[2025-09-08 22:26:08.911 +0800] INFO: [pages\CheckoutPage.ts:68:13] Screenshot taken after filling checkout information
+[2025-09-08 22:26:09.020 +0800] INFO: [pages\CheckoutPage.ts:70:13] Clicked 'Continue' button
+[2025-09-08 22:26:09.047 +0800] INFO: [pages\CheckoutPage.ts:72:13] Navigated to checkout step two page
+[2025-09-08 22:26:09.168 +0800] INFO: [pages\CheckoutPage.ts:75:13] Screenshot taken of checkout step two page
+[2025-09-08 22:26:09.169 +0800] INFO: [pages\CheckoutPage.ts:85:13] Verifying successful checkout
+[2025-09-08 22:26:09.273 +0800] INFO: [pages\CheckoutPage.ts:88:13] Clicked 'Finish' button
+[2025-09-08 22:26:09.286 +0800] INFO: [pages\CheckoutPage.ts:90:13] Navigated to checkout complete page
+[2025-09-08 22:26:09.308 +0800] INFO: [pages\CheckoutPage.ts:93:13] Verified thank you message
+[2025-09-08 22:26:09.413 +0800] INFO: [pages\CheckoutPage.ts:96:13] Screenshot taken of checkout complete page

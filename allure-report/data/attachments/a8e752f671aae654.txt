@@ -1,0 +1,30 @@
+[2025-09-08 22:26:08.185 +0800] INFO: [pages\LoginPage.ts:31:13] Filling username: standard_user
+[2025-09-08 22:26:08.311 +0800] INFO: [pages\LoginPage.ts:33:13] Filling password: *******
+[2025-09-08 22:26:09.474 +0800] INFO: [pages\LoginPage.ts:37:13] Clicking login button
+[2025-09-08 22:26:09.582 +0800] INFO: [pages\LoginPage.ts:40:13] Login successful, redirected to inventory page
+[2025-09-08 22:26:09.596 +0800] INFO: [pages\LoginPage.ts:42:13] Product title verified
+[2025-09-08 22:26:10.704 +0800] INFO: [pages\InventoryPage.ts:17:17] Clicked on product Sauce Labs Backpack to view details
+[2025-09-08 22:26:10.704 +0800] INFO: [pages\InventoryPage.ts:18:17] Redirecting to product details page for Sauce Labs Backpack
+[2025-09-08 22:26:11.116 +0800] INFO: [pages\InventoryPage.ts:21:17] Screenshot taken for product details page of Sauce Labs Backpack
+[2025-09-08 22:26:11.417 +0800] INFO: [pages\InventoryPage.ts:23:17] Clicked 'Add to Cart' for Sauce Labs Backpack from product details page
+[2025-09-08 22:26:12.130 +0800] INFO: [pages\InventoryPage.ts:26:17] Screenshot taken after adding Sauce Labs Backpack to cart from product details page
+[2025-09-08 22:26:12.195 +0800] INFO: [pages\InventoryPage.ts:39:13] Verified that Sauce Labs Backpack is added to cart
+[2025-09-08 22:26:12.525 +0800] INFO: [pages\InventoryPage.ts:44:13] Navigated to cart page
+[2025-09-08 22:26:12.733 +0800] INFO: [pages\InventoryPage.ts:48:13] Verified that Sauce Labs Backpack is present in the cart
+[2025-09-08 22:26:12.745 +0800] INFO: [pages\InventoryPage.ts:50:13] Verified cart item label for Sauce Labs Backpack
+[2025-09-08 22:26:13.264 +0800] INFO: [pages\InventoryPage.ts:54:13] Screenshot taken of cart page after adding Sauce Labs Backpack
+[2025-09-08 22:26:13.266 +0800] INFO: [pages\CheckoutPage.ts:23:13] Initiating checkout process
+[2025-09-08 22:26:13.559 +0800] INFO: [pages\CheckoutPage.ts:27:13] Clicked 'Checkout' button
+[2025-09-08 22:26:13.640 +0800] INFO: [pages\CheckoutPage.ts:29:13] Navigated to checkout step one page
+[2025-09-08 22:26:14.236 +0800] INFO: [pages\CheckoutPage.ts:32:13] Screenshot taken of checkout step one page
+[2025-09-08 22:26:14.238 +0800] INFO: [pages\CheckoutPage.ts:61:13] Filling checkout information: TCOne Abbott, Postal Code: 13922
+[2025-09-08 22:26:14.452 +0800] INFO: [pages\CheckoutPage.ts:65:13] Filled in checkout information
+[2025-09-08 22:26:14.901 +0800] INFO: [pages\CheckoutPage.ts:68:13] Screenshot taken after filling checkout information
+[2025-09-08 22:26:15.249 +0800] INFO: [pages\CheckoutPage.ts:70:13] Clicked 'Continue' button
+[2025-09-08 22:26:15.274 +0800] INFO: [pages\CheckoutPage.ts:72:13] Navigated to checkout step two page
+[2025-09-08 22:26:15.825 +0800] INFO: [pages\CheckoutPage.ts:75:13] Screenshot taken of checkout step two page
+[2025-09-08 22:26:15.826 +0800] INFO: [pages\CheckoutPage.ts:85:13] Verifying successful checkout
+[2025-09-08 22:26:16.044 +0800] INFO: [pages\CheckoutPage.ts:88:13] Clicked 'Finish' button
+[2025-09-08 22:26:16.129 +0800] INFO: [pages\CheckoutPage.ts:90:13] Navigated to checkout complete page
+[2025-09-08 22:26:16.155 +0800] INFO: [pages\CheckoutPage.ts:93:13] Verified thank you message
+[2025-09-08 22:26:16.537 +0800] INFO: [pages\CheckoutPage.ts:96:13] Screenshot taken of checkout complete page
