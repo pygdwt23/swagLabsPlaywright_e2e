@@ -25,7 +25,7 @@ export default defineConfig({
     video: 'retain-on-failure',
     trace: 'retain-on-failure',
     // headless: !!process.env.CI,
-    headless: true,
+    headless: false,
   },
 
   projects: [
