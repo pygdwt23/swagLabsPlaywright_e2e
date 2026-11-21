@@ -7,7 +7,6 @@ import path from 'path';
 import { ReportHelper } from '../utils/ReportHelper';   // ✅ import helper
 import { HeadingLevel } from 'docx';
 import { faker } from '@faker-js/faker';
-import { ac } from '@faker-js/faker/dist/airline-CLphikKp';
 
 
 const filePath = path.join(__dirname, '../testdata/swaglabs_data.xlsx');
